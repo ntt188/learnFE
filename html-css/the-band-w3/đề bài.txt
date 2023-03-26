@@ -1,0 +1,35 @@
+Thực hành số 1
+Mẫu:   https://www.w3schools.com/w3css/tryw3css_templates_band.htm
+
+Các bước:
+1.Phân tích: -> xong
+    1.header
+    2.slider
+    3.Content (khi có nhiều content thì sẽ có thêm container bọc ngoài)
+        1.about
+        2.tour
+        3.contact
+        4.image
+    4.footer
+2.Dựng base(xây móng)
+3.xây dựng từng phần theo phân tích
+4.Hoàn thiện
+
+
+
+
+Những thành phần thường gặp trewen giao diện website:
+1.header
+2.navigation(điều hướng của trang): phần hiển thị chính của trang hiển thị trong đa số trang
+3.Breadcrumb: phần chỉ bạn đang ở đâu trên website
+4.Sitebar: thanh được đặt ở một phía màn hình
+5.Slider: màn trình diễn nội dung như ảnh hoặc video (dạng trượt)
+6.Banner:ảnh quảng cáo.
+7.Content(Nội dung chính của website):thành phần đặp vào mắt người dùng 
+8.footer
+
+Trang này được gọi là ONEPAGE
+
+
+
+lấy các icon search "themify icon" hoặc "fontawesome.com"
