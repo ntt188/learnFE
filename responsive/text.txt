@@ -1,0 +1,33 @@
+1. Media query
+    @media not|only mediatype and (mediafeature and|or|not mediafeature) {
+        CSS
+    }
+    1. Keywords:
+        not
+        only
+        end
+        or
+    2. mediatype:
+        print: css cho màn hình In
+        screen: css cho màn hình
+        speech: css đọc
+        all-default: tất cả
+    3. mediafeature:
+        min-width
+        max-width
+        ...
+    4. Polyfill:
+
+2. Breakpoints
+    là những điểm/vị trí mà bố cục website sẽ thay đổi - thích ứng để tạo nên giao diện responesive
+
+    search "media query common Breakpoints" để biết các điểm tùy them giao diện
+
+    cơ bản: 
+        1. mobie: width < 740px
+        2. tablet: width >= 740px and width < 1024px
+        3. PC: width >= 1024px
+
+3. Khi sử dụng @media thì nên sử dụng (px, rem or em)
+    sử dụng em là tốt nhất
+    chuyển px sang em search "px to em converter" 1em=16px
