@@ -31,3 +31,8 @@
 3. Khi sử dụng @media thì nên sử dụng (px, rem or em)
     sử dụng em là tốt nhất
     chuyển px sang em search "px to em converter" 1em=16px
+
+4. Bài tập nhỏ (file: small-execrise)
+    thực hành responesive (small-execrise/responesive.html)
+    chuyển navigation sang navigation bar (small-execrise/navigation.html)
+        search "fontAwesome"
