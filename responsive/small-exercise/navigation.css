@@ -67,6 +67,8 @@ article img {
     left: 0;
     background-color: rgba(0, 0, 0, 0.3);
     display: none;
+    /* thêm hiệu ứng tạo dưới vào */
+    animation: fadeIn linear 0.2s;
 }
 
 .nav__mobile {
@@ -79,6 +81,10 @@ article img {
     background-color: #fff;
     /* nav này ko ẩn đi mà cho nó di chuyển ra khỏi màn hình */
     transform: translateX(-100%);
+    opacity: 0;
+    /* thêm hiệu ứng trượt vào */
+    /* có thể viết chung hết ko cần , là all liner 0.3s */
+    transition: transform linear 0.3s, opacity linear 0.3s;
 }
 
 
@@ -103,6 +109,19 @@ article img {
     top: 1rem;
     right: 1rem;
 }
+.nav__input {
+    display: none;
+}
+
+/* khi được check thì css cho thẻ sau nó */
+.nav__input:checked ~ .nav_overlay {
+    display: block;
+}
+
+.nav__input:checked ~ .nav__mobile {
+    transform: translateX(0) !important;
+    opacity: 1;
+}
 
 @media (max-width: 1023px) {
     .nav_bars-btn {        
@@ -110,5 +129,17 @@ article img {
     }
     .nav__pc {
         display: none;
+    }
+}
+
+/* tạo hiệu ứng ẩn hiện cho overlay */
+@keyframes fadeIn {
+    /* điểm bắt đầu */
+    from {
+        opacity: 0;
+    }
+    /* điểm kết thúc */
+    to {
+        opacity: 1;
     }
 }

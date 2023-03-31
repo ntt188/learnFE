@@ -9,7 +9,7 @@
 
     <body>
         <div class="main">
-            <label class="nav">
+            <div class="nav">
                 <!-- Nav PC -->
                 <nav class="nav__pc">
                     <ul class="nav__list">
@@ -32,18 +32,19 @@
                 </nav>
 
                 <!-- thêm nút bar khi responsive -->
+                <!-- bọc thẻ lable để lấy for cho thẻ input để khi nhấn thì check cho thẻ input ko cần phải bấm vào nút check -->
                 <label for="nav-mobile-input" class="nav_bars-btn">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>                
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
                 </label>
 
                 <!-- tạo check để ẩn hiện cho id nó vào thẻ label để khi bấm vào có thể tự check vào input -->
-                <!-- <input type="checkbox" class="nav_input" name="" id="nav-mobile-input"> -->
+                <input type="checkbox" class="nav__input" name="" id="nav-mobile-input">
                 
-                <div class="nav_overlay"></div>
+                <label for="nav-mobile-input" class="nav_overlay"></label>
                 <nav class="nav__mobile">
-                    <div class="nav__mobile-close">
+                    <label for="nav-mobile-input" class="nav__mobile-close">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
-                    </div>
+                    </label>
                     <ul class="nav__mobile-list">
                         <li>
                             <a href="" class="nav__mobile-link">Home</a>
@@ -62,6 +63,7 @@
                         </li>
                     </ul>
                 </nav>
+            </div>
             <article>
                 <h1>Hơn 100 học sinh biết bơi nhờ lớp dạy bơi miễn phí của những thanh niên tốt bụng</h1>
                 <p><strong>Hai năm nay, hai thanh niên ở xã Chư Đăng Ya, huyện Chư Pah (Gia Lai) cùng với một số thanh niên khác của xã đã tự nguyện dạy bơi cho những học sinh bản địa. Nhờ có lớp học bơi này, hơn 100 học sinh ở xã đã biết bơi, có thêm kỹ năng sinh tồn ở vùng đất thường có nước dữ vào mùa mưa.</strong></p>
