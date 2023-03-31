@@ -1,0 +1,48 @@
+Kết quả:
+    1. Tự tay xây dựng được viện CSS đầu tiền
+    2. Biết cách ứng dụng Grid system  vào xây dựng layout
+    3. Hiểu về grid layout của bootstrap
+
+TẠO ĐỐI TƯỢNG Grid
+1. Tạo class
+    grid: full-width, chiếm hết chiều ngang đối tượng chứa (cha)
+    wide: chiều ngang tối đa 1200px
+2. Đặt lại chiều rộng trên các thiết bị
+    @media (min-width: 740px) and (max-width: 1023px){
+        .wide {
+            width: 644px;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1239px){
+        .wide {
+            width: 984px;
+        }
+    }
+
+TẠO ĐỐI TƯỢNG Row
+Vai trò:
+    1. chứa các colum, giúp các colum nằm theo chiều ngang
+    2. khi tổng chiều ngang của colum vượt quá kích thước row, cho colum đó xuống hàng
+    3. loại bỏ khoảng thừa do gutter tạo ra ở 2 phía (là phần thùa ở 2 bên cột đầu và cuối)
+CSS:
+    @media (min-width: 740px) {
+        .row {
+            margin-left: -8px;
+            margin-right: -8px;
+        }
+    }
+
+    @media (min-width: 1113px) {
+        .row {
+            margin-left: -12px;
+            margin-right: -12px;
+        }
+    }
+
+    @media (min-width: 1024px) and (max-width: 1239px) {
+        .row {
+            margin-left: -12px;
+            margin-right: -12px;
+        }
+    }

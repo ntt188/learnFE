@@ -36,3 +36,27 @@
     thực hành responesive (small-execrise/responesive.html)
     chuyển navigation sang navigation bar (small-execrise/navigation.html)
         search "fontAwesome"
+
+5. Grid system (Hệ thống lưới)
+    tạo thành phần grid cho responesive
+    Grid: thành phần cha (thành phần chứa tất cả cacs cột và hàng)
+    row: dòng
+    colum: cột
+    gutter: khoảng cách 2 phía của colum
+    1. Thành phần chính (lý thuyết)
+        1. colum (cột)
+            Độ rộng sử dụng % (tương đối) giúp linh động, dễ dàng
+            tương thích với độ rộng khác nhau của các thiết bị. số lượng cột
+            trong grid system được xác định trước (vd: PC 12|16 cột, tablet 8 cột, mobie 4 cột)
+        2. gutter - đương ngăn cách (rãnh ngăn)
+            là khoảng cách 2 phía của 1 cột, tạo nền rãnh ngăn giữa các cột. Độ rộng rãnh ngăn
+            có thể thay đổi cho phù hợp với thiết kế hoặc độ rộng màn hình
+            (VD: PC/tablet 24px, mobie 16px)
+        3. margin - phân lề
+            Là khoảng cách 2 bên lề trái/phải của bố cục chính của website. Độ rộng phần lề thay đổi
+            để phù hợp với các kích thước màn hình. VD: Phần lề lớn thích hợp cho màn hình lớn như PC,
+            phần lề nhỏ thích hợp cho màn hình nhỏ như tablet, mobie
+    2. Thành phàn chính (làm việc với CSS)
+        1. Grid - lưới (thường là phần cha, chứa row và colum)
+        2. row - dòng (dòng - chiều ngang, chứa colum)
+        3. colum - cột (chứa nội dung / thành phần trên website)
