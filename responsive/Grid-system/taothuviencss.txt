@@ -41,7 +41,7 @@ CSS:
     }
 
     @media (min-width: 1024px) and (max-width: 1239px) {
-        .row {
+        .wide .row {
             margin-left: -12px;
             margin-right: -12px;
         }
