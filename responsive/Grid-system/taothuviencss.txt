@@ -397,3 +397,8 @@ OFFSET
 
 NO GUTTER
     xóa phần gutter
+
+THỰC HÀNH
+    example-1
+    example-2
+    example-3
