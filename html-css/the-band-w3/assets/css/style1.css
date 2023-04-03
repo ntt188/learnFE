@@ -9,7 +9,6 @@ html {
 }
 
 #main {
-
 }
 
 .text-white {
@@ -26,7 +25,7 @@ html {
     z-index: 1;
 
     /* ẩn đi nếu tràn quá vùng cho phép */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 #nav {
@@ -188,6 +187,7 @@ html {
 #content .member-list {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 48px;
 }
 #content .member-item {
@@ -242,6 +242,7 @@ html {
     margin-top: 32px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 48px;
 }
 
@@ -291,7 +292,8 @@ html {
 
 .contact-content {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
+    flex-wrap: wrap; 
     padding: 32px 0;
 }
 
@@ -318,6 +320,7 @@ html {
 .contact-form .contact-form-row .contact-form-col {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-bottom: 8px;
 }
 
@@ -383,6 +386,15 @@ html {
 
 /* mobile */
 @media (max-width: 739px) {
+    #header {
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
     #nav {
         display: block;
     }
@@ -392,10 +404,31 @@ html {
     #nav > li:first-child{
         display: inline-block;
     }
-    #header .search-btn {
-        display: none;
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
     }
-    #header .mobile-menu-btn {
-        display: block;
+    #nav .subnav a {
+        color: #fff;
+        padding: 4.25px 36px;
+    }
+    #content .member-item {
+        width: 60%;
+        text-align: center;
+    }
+    .contact-content .contact-info {
+        width: 100%;
+    }
+    .contact-content .contact-form {
+        width: 100%;
+    }
+    .places-list {
+        justify-content: space-around;
+    }
+    .place-item {
+        width: 100%;
+    }
+    #content .member-img {
+        width: 100%;
     }
 }
