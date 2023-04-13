@@ -1,0 +1,30 @@
+Dựng bố cục với Flexbox
+    Flexbox gồm 2 thành phần chính: Flex Container và Flex Item.
+    Flexbox có 2 trục chính: main axis và cross axis trong đó main axis là trục chính và
+    cross axis là trục phụ vuông góc với trục chính.
+    Thuộc tính CSS:
+        - display: flex | inline-flex
+        Thay đổi phương hướng
+        - flex-direction: row | column 
+        Cho phép xuống dòng mặc định nowrap
+        - flex-wrap: nowrap | wrap | wrap-reverse
+        set kích thước main size
+        - flex-basis: <length>
+        căn Flex item
+        - justify-content: flex-start | flex-end | center | space-around | space-between 
+        thuoccj tính cho flex item
+        - justify-self: flex-start | flex-end | center
+        căn cho trục phụ
+        - align-content: flex-start | flex-end | center
+        thuoccj tính cho flex item
+        - align-self: flex-start | flex-end | center
+        thay đổi kích thươc flex item
+        - flex-grow: <number>
+        ngược lại với thằng trên
+        - flex-shrink: <number>
+        cú pháp viết tắt cho 3 thuoccj tính basis grow shrink
+        - flex: <number>
+        Thứ tự vị trí
+        - order: <number>
+
+        mozilla.org
