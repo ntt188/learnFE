@@ -8,3 +8,5 @@ mẹo: ctrl+d : tìm kiếm giống
 1.HTML, CSS
   web-the-band
 2.reponsive
+3.flexbox
+4.quy ước đặt tên class BEM
