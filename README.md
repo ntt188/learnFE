@@ -10,3 +10,6 @@ mẹo: ctrl+d : tìm kiếm giống
 2.reponsive
 3.flexbox
 4.quy ước đặt tên class BEM
+
+
+!reset css: https://cdnjs.com/libraries/normalize
