@@ -13,3 +13,6 @@ mẹo: ctrl+d : tìm kiếm giống
 
 
 !reset css: https://cdnjs.com/libraries/normalize
+
+searc: caniuse.com "gán các thuộc tính css vào để biết trình duyệt nào hỗ trợ để sử dụng thêm prefix cho trình duyệt ko đc hỗ trợ"
+      "When to use prefix"
