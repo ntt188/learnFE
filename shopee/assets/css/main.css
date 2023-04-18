@@ -140,6 +140,7 @@
     animation: headerNotifyGrowth ease-in 0.2s;
     /* will-change */
     will-change: opacity, transform;
+    /* !search: When to use prefix css "lý do tại sao sử dụng prefix" */
     display: none;
 }
 
