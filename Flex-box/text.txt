@@ -27,5 +27,5 @@ Dựng bố cục với Flexbox
         Thứ tự vị trí
         - order: <number>
 
-        mozilla.org
+        developer.mozilla.org
         https://codepen.io/enxaneta/full/adLPwv/
