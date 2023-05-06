@@ -479,6 +479,9 @@
     display: flex;
     align-items: center;
     margin: 0 8px;
+    /* không cho user bôi đen */
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 .header__mobile-search {
